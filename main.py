@@ -22,7 +22,7 @@ frame_no = -1
 while ret:
     ret, frame = cap.read()
     frame_no += 1
-    if ret and frame_no < 10:
+    if ret:
         
         results[frame_no] = {}
         
@@ -59,11 +59,12 @@ while ret:
             # read the license plate text
             license_plate_text, confidence = read_license_plate(license_plate_thresh)
             
-            results[frame_no][car_id] = {'vehicle':{ 'coordinates': [car_x1, car_y1, car_x2, car_y2]},
-                                         'license_plate' :{'coordinates': [x1, y1, x2, y2],
-                                                           'text': license_plate_text,
-                                                           'coordinates_confidence': conf,
-                                                            'text_confidence': confidence}}
+            if license_plate_text is not None:
+                results[frame_no][car_id] = {'vehicle':{ 'coordinates': [car_x1, car_y1, car_x2, car_y2]},
+                                            'license_plate' :{'coordinates': [x1, y1, x2, y2],
+                                                            'text': license_plate_text,
+                                                            'coordinates_confidence': conf,
+                                                                'text_confidence': confidence}}
     else:
         break
 #write results to a file
