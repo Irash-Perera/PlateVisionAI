@@ -28,8 +28,8 @@ def write_csv(results, output_path):
         output_path (str): Path to the output CSV file.
     """
     with open(output_path, 'w') as f:
-        f.write('{},{},{},{},{},{},{}\n'.format('frame_no', 'car_id', 'car_coordinates',
-                                                'license_plate_coordinates', 'license_plate_coordinate_score', 'license_number',
+        f.write('{},{},{},{},{},{},{}\n'.format('frame_nmr', 'car_id', 'car_bbox',
+                                                'license_plate_bbox', 'license_plate_bbox_score', 'license_number',
                                                 'license_number_score'))
 
         for frame_no in results.keys():
@@ -38,7 +38,8 @@ def write_csv(results, output_path):
                 if 'vehicle' in results[frame_no][car_id].keys() and \
                    'license_plate' in results[frame_no][car_id].keys() and \
                    'text' in results[frame_no][car_id]['license_plate'].keys():
-                    f.write('{},{},{},{},{},{},{}\n'.format(frame_no,car_id,                                                  '[{} {} {} {}]'.format(
+                    f.write('{},{},{},{},{},{},{}\n'.format(frame_no,car_id,                                                  
+                                                            '[{} {} {} {}]'.format(
                                                                 results[frame_no][car_id]['vehicle']['coordinates'][0],
                                                                 results[frame_no][car_id]['vehicle']['coordinates'][1],
                                                                 results[frame_no][car_id]['vehicle']['coordinates'][2],
