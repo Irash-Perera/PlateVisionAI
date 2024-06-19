@@ -4,4 +4,4 @@ numpy
 opencv-python
 ffmpeg-python
 ultralytics
-Sort @ ./Sort
+-e ./Sort
