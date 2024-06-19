@@ -4,7 +4,8 @@ numpy
 opencv-python
 ffmpeg-python
 ultralytics
+git+https://github.com/Irash-Perera/Sort.git
+Sort
 filterpy==1.4.5
 scikit-image==0.17.2
 lap==0.4.0
-git+https://github.com/Irash-Perera/Sort.git
