@@ -1,7 +1,1 @@
-streamlit
-pandas
-numpy
-opencv-python
-ffmpeg-python
-ultralytics
-
+ffmpeg
