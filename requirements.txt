@@ -4,4 +4,4 @@ numpy
 opencv-python
 ffmpeg-python
 ultralytics
-
+git+https://github.com/Irash-Perera/Sort.git
