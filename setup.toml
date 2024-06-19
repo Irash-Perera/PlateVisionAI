@@ -1,4 +1,4 @@
-!git clone git+https://github.com/Irash-Perera/Sort.git
-%cd Sort
+!pip install --upgrade git+https://github.com/Irash-Perera/Sort.git
+!cd Sort
 !pip install -r requirements.txt
 !pip install -r Sort/requirements.txt
