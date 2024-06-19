@@ -1,6 +1,11 @@
 # Plate Vision AI
 ## Automated License Plate Recognition and Vehicle Detection
 
+
+
+https://github.com/Irash-Perera/PlateVisionAI/assets/42272743/9b2ba2d1-4ad1-4a2f-8256-5dc81770439f
+
+
 ### Introduction
 Plate Vision AI is a project that aims to automate the process of license plate recognition and vehicle detection. The project is built using the YOLOv8 object detection model and a custom model, pre-trained to recognize license plates. The project is built using Python, openCV, Streamlit.
 
