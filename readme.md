@@ -1,9 +1,7 @@
 # Plate Vision AI
 ## Automated License Plate Recognition and Vehicle Detection
 
-
-
-https://github.com/Irash-Perera/PlateVisionAI/assets/42272743/9b2ba2d1-4ad1-4a2f-8256-5dc81770439f
+![Plate Vision AI](./screenshots/Screenshot.png)
 
 
 ### Introduction
@@ -32,6 +30,9 @@ Navigate to the `app` directory and run the Streamlit app using the following co
 ```
 streamlit run app.py
 ```
+
+https://github.com/Irash-Perera/PlateVisionAI/assets/42272743/9b2ba2d1-4ad1-4a2f-8256-5dc81770439f
+
 Note: To detect license plates and keep records, you need to upload a video file or select a video file from the given options. The reason for not being able to do this process in real-time is due to the limitations of processing power and the time it takes to process each frame.
 
 After the video is processed, a new button will appear to interpolate the processed data. Click on the button to interpolate the data and display the results.
