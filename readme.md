@@ -41,7 +41,7 @@ Finally, a new button will appear to view the final output. Click on the button 
 
 Instead of sending the input through a pipeline without any user interaction, I have designed the app allowing the user to interact with the app and view the results at each stage. This will help the user to understand the process and the results better.
 
-The pre-trained model which has been used to detect license plates is only trained on UK license plates. Therefore, the model may not work as expected when detecting license plates from other countries.
+After detecting the license plates and ectracting the text from it, it will be send through a format checking pipeline. Current checking format is only suppported for UK license plates.
 <table>
   <tr>
     <td><img src="./app/assets/license_plate1.png" width="200"></td>
