@@ -22,7 +22,7 @@ git clone https://github.com/Irash-Perera/Sort.git
 #### 3. Install the required libraries
 Install the required libraries using the following command:
 ```
-pip install -r packages.txt
+pip install -r requirements.txt
 ```
 #### 4. Run the Streamlit app
 
