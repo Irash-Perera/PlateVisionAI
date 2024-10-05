@@ -10,4 +10,4 @@ scipy==1.14.1
 scikit-image
 streamlit==1.39.0
 ultralytics==8.2.29
-streamlit==1.35.0
+streamlit==1.39.0
