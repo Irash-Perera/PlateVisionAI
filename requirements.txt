@@ -1,3 +1,4 @@
+git+https://github.com/Irash-Perera/Sort.git#egg=Sort
 easyocr
 ffmpeg_python
 filterpy
