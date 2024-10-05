@@ -1,4 +1,4 @@
-git
+
 easyocr
 ffmpeg_python
 filterpy
